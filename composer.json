@@ -1,0 +1,19 @@
+{
+    "name": "root/php-crawler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Asier Ramos",
+            "email": "uthopiko@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhpCrawler\\": "src/uthopiko/PhpCrawler"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~5.0"
+    }
+}
